@@ -1,6 +1,13 @@
 # Condicionales sencillas
 
-edad = int(input("Escribe tu edad: "))
+menu = """
+Bienvenido al verificador de edad
+
+En este lugar hay restricción de edad
+
+Por favor introduce tu edad: """
+
+edad = int(input(menu))
 if edad > 17:
     print("Es mayor de edad")
 else:
